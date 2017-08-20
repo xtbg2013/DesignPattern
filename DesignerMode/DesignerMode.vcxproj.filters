@@ -16,6 +16,9 @@
     <Filter Include="ProxyPattern">
       <UniqueIdentifier>{4aad4076-4282-40b8-94d2-43cb7c9eac09}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BridgePattern">
+      <UniqueIdentifier>{3e7ab91b-d790-4c90-ab66-4de5651af616}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -40,6 +43,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Abstraction.h">
+      <Filter>BridgePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractionImp.h">
+      <Filter>BridgePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -63,6 +72,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Abstraction.cpp">
+      <Filter>BridgePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractionImp.cpp">
+      <Filter>BridgePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

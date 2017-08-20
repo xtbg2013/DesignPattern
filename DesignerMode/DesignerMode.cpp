@@ -6,6 +6,7 @@
 #include "Proxy.h"
 #include "BaseImage.h"
 #include "GamePlayer.h"
+#include "UnitTest.h"
 #include <iostream>
 using namespace std;
 void proxyTest()
@@ -32,11 +33,17 @@ void proxyGame()
 	proxy.exit();
 }
 
+
+
+
+
+
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	//proxyTest();
-	//proxyImage();
-	proxyGame();
+	 
+	UnitTest ts;
+	ts.BridgePattern();
 	 
 	
 	int iexit = 0;
