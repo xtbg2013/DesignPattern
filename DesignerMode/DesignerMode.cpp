@@ -44,6 +44,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	 
 	UnitTest ts;
 	ts.BridgePattern();
+	ts.AdapterPattern();
 	 
 	
 	int iexit = 0;

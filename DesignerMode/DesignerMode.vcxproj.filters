@@ -19,6 +19,9 @@
     <Filter Include="BridgePattern">
       <UniqueIdentifier>{3e7ab91b-d790-4c90-ab66-4de5651af616}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AdapterPattern">
+      <UniqueIdentifier>{5699b013-2e0e-43f9-a204-a7971d86becd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -51,6 +54,9 @@
     <ClInclude Include="UnitTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Target.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -78,6 +84,9 @@
       <Filter>BridgePattern</Filter>
     </ClCompile>
     <ClCompile Include="UnitTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Target.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -5,5 +5,6 @@ public:
 	UnitTest();
 	~UnitTest();
 	void BridgePattern();
+	void AdapterPattern();
 };
 

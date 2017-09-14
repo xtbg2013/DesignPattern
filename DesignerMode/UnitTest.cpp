@@ -2,6 +2,7 @@
 #include "UnitTest.h"
 #include "Abstraction.h"
 #include "AbstractionImp.h"
+#include "Target.h"
 
 UnitTest::UnitTest()
 {
@@ -22,4 +23,14 @@ void UnitTest::BridgePattern()
 	pAbsB->Operation();
 	delete pAbsA;
 	delete pAbsB;
+}
+
+void UnitTest::AdapterPattern()
+{
+	Target *pTargetA = new Adapter2(new Adatee());
+	pTargetA->Request();
+	delete pTargetA;
+	Target *pTargetB = new Adapter1();
+	pTargetB->Request();
+	delete pTargetB;
 }
